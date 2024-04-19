@@ -1,0 +1,44 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    margin: 0 15%;
+    padding-top: 50px;
+    justify-content: center;
+    gap: 30px;
+    
+}
+.perfil-presentaciom-nombre {
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.perfil-presentaciom-p{
+    margin-top: 15px;
+}
+.redes{
+    
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+.redes-item a {
+    color: #464646;
+    border: 1px solid #464646;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+.redes-item a:hover{
+    width: 40%;
+   background-color: grey;
+   color: #fefefefe;
+   font-size: 18px;
+   font-weight: bold;
+   transition: 0.3s all;
+}
+.portada img{
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px gray;
+}

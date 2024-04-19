@@ -1,0 +1,38 @@
+header{
+    height: 60px;
+    padding: 20px 280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-img{
+    height: 22px;
+}
+.menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; 
+}
+.menu-list li a{
+    color: #464646;
+}
+.menu-list-item-c{
+    display: none;
+}
+
+.menu-list li a:hover{
+    
+    /* border: 1px solid #464646; */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s all;
+    padding: 5px;
+}
+
