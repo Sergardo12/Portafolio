@@ -36,3 +36,9 @@
     color: white;
     transition: 400ms all;
 }
+@media (min-width: 512px){
+    .formacion-list{
+        display: flex;
+        flex-direction: column;
+    }
+}
