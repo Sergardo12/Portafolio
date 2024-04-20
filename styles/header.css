@@ -1,4 +1,6 @@
 header{
+    background-color: #2f4550;
+    color: white;
     height: 60px;
     padding: 20px 280px;
     display: flex;
@@ -9,6 +11,7 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
+    color: white;
 }
 .logo-img{
     height: 22px;
@@ -17,10 +20,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px; 
+    gap: 20px;
+    
 }
 .menu-list li a{
-    color: #464646;
+    color: white;
 }
 .menu-list-item-c{
     display: none;
