@@ -89,3 +89,12 @@
     }
 
 }
+@media (min-width: 500px) and (max-width: 1050px){
+    .perfil-presentaciom-nombre{
+        font-size: 30px;
+    }
+    .redes-item a{
+        font-size: 9px;
+        gap: 3px
+    }
+}
